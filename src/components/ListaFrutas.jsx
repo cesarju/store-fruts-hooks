@@ -3,7 +3,8 @@ import { CardFruta } from "./CardFurta";
 function ListaFrutas({ lista }) {
   return (
     <div>
-      <ol>
+      <input />
+      <ol className="container-list">
         {lista.map((elemento, index) => (
           <CardFruta
             key={index}
