@@ -1,3 +1,4 @@
+import { Contador } from "./Contador";
 import "./cardFrutas.css";
 // eslint-disable-next-line react/prop-types
 function CardFruta({ nombre, color, precio, logo, sabor }) {
@@ -9,9 +10,8 @@ function CardFruta({ nombre, color, precio, logo, sabor }) {
         <p>Color: {color}</p>
         <p>Sabor: {sabor}</p>
         <p>Precio: {precio}</p>
-        <div className="count">
-          <button>Comprar</button>
-        </div>
+        <Contador />
+        <button>Comprar</button>
         <button>Editar</button>
       </div>
     </li>

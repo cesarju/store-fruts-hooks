@@ -1,3 +1,4 @@
+import { FetchAPI } from "./components/FetchAPI";
 import Header from "./components/Header";
 import { ListaFrutas } from "./components/ListaFrutas";
 
@@ -26,6 +27,7 @@ function App() {
     <div style={{ backgroundColor: "#f2ffbc", height: "100vh" }}>
       <Header title="Clase 02 de Reat - componentes" />
       <ListaFrutas lista={listaFrutas} />
+      <FetchAPI />
     </div>
   );
 }
