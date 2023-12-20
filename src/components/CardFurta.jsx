@@ -1,9 +1,6 @@
-import { useState } from "react";
 import "./cardFrutas.css";
 // eslint-disable-next-line react/prop-types
 function CardFruta({ nombre, color, precio, logo, sabor }) {
-  const [count, setCount] = useState(0);
-
   return (
     <li className="container">
       <h1 className="logo">{logo}</h1>
@@ -13,9 +10,7 @@ function CardFruta({ nombre, color, precio, logo, sabor }) {
         <p>Sabor: {sabor}</p>
         <p>Precio: {precio}</p>
         <div className="count">
-          <button onClick={() => setCount(count - 1)}>-</button>
-          <h3>{count}</h3>
-          <button onClick={() => setCount(count + 1)}>+</button>
+          <button>Comprar</button>
         </div>
         <button>Editar</button>
       </div>

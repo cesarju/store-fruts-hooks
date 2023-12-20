@@ -3,7 +3,7 @@ import { ListaFrutas } from "./components/ListaFrutas";
 
 const listaFrutas = [
   { nombre: "Manzana", color: "Rojo", sabor: "Dulce", logo: "🍎", precio: 20 },
-  /* {
+  {
     nombre: "Plátano",
     color: "Amarillo",
     sabor: "Dulce",
@@ -18,7 +18,7 @@ const listaFrutas = [
     sabor: "Ácido",
     logo: "🍋",
     precio: 40,
-  }, */
+  },
 ];
 
 function App() {
