@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 const listaFrutas = [
   { nombre: "Manzana", color: "Rojo", sabor: "Dulce", logo: "🍎", precio: 20 },
   {
